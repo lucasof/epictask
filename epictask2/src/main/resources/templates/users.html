@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Users</h2>
+	
+	<ul th:each="user : ${ users }">
+		<li >
+			<p th:text="${ user.name }"></p>
+			<p th:text="${ user.email }"></p>
+			<p th:text="${ user.password }"></p>
+		</li>
+	
+	</ul>
+	<a href="/task/new">Nova Tarefa</a>
+</body>
+</html>
