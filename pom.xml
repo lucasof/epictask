@@ -11,6 +11,8 @@
 	<groupId>br.com.fiap</groupId>
 	<artifactId>epictask</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+  	<packaging>war</packaging>
+
 	<name>epictask</name>
 	<description>App de controle de tarefas gamificado</description>
 	<properties>
